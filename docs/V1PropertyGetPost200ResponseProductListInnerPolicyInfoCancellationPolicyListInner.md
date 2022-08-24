@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.V1PropertyGetPost200ResponseProductListInnerPolicyInfoCancellationPolicyListInner
+# LodgeaJs.V1PropertyGetPost200ResponseProductListInnerPolicyInfoCancellationPolicyListInner
 
 ## Properties
 

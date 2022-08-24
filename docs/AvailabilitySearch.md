@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.AvailabilitySearch
+# LodgeaJs.AvailabilitySearch
 
 ## Properties
 

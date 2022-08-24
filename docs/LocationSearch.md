@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.LocationSearch
+# LodgeaJs.LocationSearch
 
 ## Properties
 

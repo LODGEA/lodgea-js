@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.V1PropertyGetPost200ResponsePropertyPropertyInfoAcceptedPaymentListInner
+# LodgeaJs.V1PropertyGetPost200ResponsePropertyPropertyInfoAcceptedPaymentListInner
 
 ## Properties
 

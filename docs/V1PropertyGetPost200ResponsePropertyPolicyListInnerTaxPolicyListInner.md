@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.V1PropertyGetPost200ResponsePropertyPolicyListInnerTaxPolicyListInner
+# LodgeaJs.V1PropertyGetPost200ResponsePropertyPolicyListInnerTaxPolicyListInner
 
 ## Properties
 

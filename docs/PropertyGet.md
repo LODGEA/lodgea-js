@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.PropertyGet
+# LodgeaJs.PropertyGet
 
 ## Properties
 

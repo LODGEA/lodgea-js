@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.V1PropertyGetPost200ResponsePropertyGeoDe
+# LodgeaJs.V1PropertyGetPost200ResponsePropertyGeoDe
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.AvailabilityApi
+# LodgeaJs.AvailabilityApi
 
 All URIs are relative to *https://api.eu.lodgea.io*
 
@@ -19,17 +19,17 @@ Get availability information based on search criteria. The possible values for t
 ### Example
 
 ```javascript
-import LodgeaOtaServiceApiReference from 'lodgea_ota_service_api_reference';
-let defaultClient = LodgeaOtaServiceApiReference.ApiClient.instance;
+import LodgeaJs from 'lodgea_js';
+let defaultClient = LodgeaJs.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
 ApiKeyAuth.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
-let apiInstance = new LodgeaOtaServiceApiReference.AvailabilityApi();
+let apiInstance = new LodgeaJs.AvailabilityApi();
 let opts = {
-  'availabilitySearch': new LodgeaOtaServiceApiReference.AvailabilitySearch() // AvailabilitySearch | Search Criteria, all parameters are optional
+  'availabilitySearch': new LodgeaJs.AvailabilitySearch() // AvailabilitySearch | Search Criteria, all parameters are optional
 };
 apiInstance.v1AvailabilitySearchPost(opts, (error, data, response) => {
   if (error) {

@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.V1PropertyGetPost200ResponsePropertyTransactionExternalListInner
+# LodgeaJs.V1PropertyGetPost200ResponsePropertyTransactionExternalListInner
 
 ## Properties
 

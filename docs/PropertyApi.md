@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.PropertyApi
+# LodgeaJs.PropertyApi
 
 All URIs are relative to *https://api.eu.lodgea.io*
 
@@ -19,16 +19,16 @@ Get all information about a specific property by its ID. This parameter is requi
 ### Example
 
 ```javascript
-import LodgeaOtaServiceApiReference from 'lodgea_ota_service_api_reference';
-let defaultClient = LodgeaOtaServiceApiReference.ApiClient.instance;
+import LodgeaJs from 'lodgea_js';
+let defaultClient = LodgeaJs.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
 ApiKeyAuth.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
-let apiInstance = new LodgeaOtaServiceApiReference.PropertyApi();
-let propertyGet = new LodgeaOtaServiceApiReference.PropertyGet(); // PropertyGet | Provide the property ID to get more information about it
+let apiInstance = new LodgeaJs.PropertyApi();
+let propertyGet = new LodgeaJs.PropertyGet(); // PropertyGet | Provide the property ID to get more information about it
 apiInstance.v1PropertyGetPost(propertyGet, (error, data, response) => {
   if (error) {
     console.error(error);

@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.V1AvailabilitySearchPost200ResponseListInner
+# LodgeaJs.V1AvailabilitySearchPost200ResponseListInner
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.V1PropertyGetPost200ResponsePropertyCancellationGracePeriod
+# LodgeaJs.V1PropertyGetPost200ResponsePropertyCancellationGracePeriod
 
 ## Properties
 

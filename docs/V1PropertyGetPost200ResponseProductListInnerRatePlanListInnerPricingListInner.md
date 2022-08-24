@@ -1,4 +1,4 @@
-# LodgeaOtaServiceApiReference.V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInner
+# LodgeaJs.V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInner
 
 ## Properties
 
