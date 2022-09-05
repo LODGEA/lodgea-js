@@ -1,6 +1,6 @@
 /**
  * lodgea-js
- * LODGEA SDK for Javascript. Check out https://lodgea.redoc.ly for more information.
+ * LODGEA SDK for Javascript. Check out https://docs.lodgea.io for more information.
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: info@lodgea.com
@@ -75,7 +75,7 @@ import PropertyApi from './com.lodgea.controllers/PropertyApi';
 
 
 /**
-* LODGEA_SDK_for_Javascript__Check_out_https__lodgea_redoc_ly_for_more_information_.<br>
+* LODGEA_SDK_for_Javascript__Check_out_https__docs_lodgea_io_for_more_information_.<br>
 * The <code>index</code> module provides access to constructors for all the classes which comprise the public API.
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:

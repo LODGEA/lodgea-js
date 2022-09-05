@@ -1,7 +1,7 @@
 {
   "name": "@lodgea/lodgea-js",
   "version": "1.0.0",
-  "description": "LODGEA_SDK_for_Javascript__Check_out_https__lodgea_redoc_ly_for_more_information_",
+  "description": "LODGEA_SDK_for_Javascript__Check_out_https__docs_lodgea_io_for_more_information_",
   "license": "Apache 2.0",
   "main": "dist/com.lodgea/index.js",
   "scripts": {
