@@ -22,11 +22,10 @@ class LocationSearch {
     /**
      * Constructs a new <code>LocationSearch</code>.
      * @alias module:com.lodgea/com.lodgea.model/LocationSearch
-     * @param searchText {String} 
      */
-    constructor(searchText) { 
+    constructor() { 
         
-        LocationSearch.initialize(this, searchText);
+        LocationSearch.initialize(this);
     }
 
     /**
@@ -34,8 +33,7 @@ class LocationSearch {
      * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
      * Only for internal use.
      */
-    static initialize(obj, searchText) { 
-        obj['searchText'] = searchText;
+    static initialize(obj) { 
     }
 
     /**
@@ -52,6 +50,12 @@ class LocationSearch {
             if (data.hasOwnProperty('searchText')) {
                 obj['searchText'] = ApiClient.convertToType(data['searchText'], 'String');
             }
+            if (data.hasOwnProperty('currencyCode')) {
+                obj['currencyCode'] = ApiClient.convertToType(data['currencyCode'], 'String');
+            }
+            if (data.hasOwnProperty('languageCode')) {
+                obj['languageCode'] = ApiClient.convertToType(data['languageCode'], 'String');
+            }
         }
         return obj;
     }
@@ -63,6 +67,16 @@ class LocationSearch {
  * @member {String} searchText
  */
 LocationSearch.prototype['searchText'] = undefined;
+
+/**
+ * @member {String} currencyCode
+ */
+LocationSearch.prototype['currencyCode'] = undefined;
+
+/**
+ * @member {String} languageCode
+ */
+LocationSearch.prototype['languageCode'] = undefined;
 
 
 
