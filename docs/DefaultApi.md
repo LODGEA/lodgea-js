@@ -14,7 +14,7 @@ Method | HTTP request | Description
 
 ## availabilitySearchPost
 
-> AvailabilitySearchPost200Response availabilitySearchPost(opts)
+> InlineResponse2001 availabilitySearchPost(opts)
 
 Search for availability
 
@@ -33,7 +33,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 
 let apiInstance = new LodgeaJs.DefaultApi();
 let opts = {
-  'availabilitySearchPostRequest': new LodgeaJs.AvailabilitySearchPostRequest() // AvailabilitySearchPostRequest | 
+  'inlineObject1': new LodgeaJs.InlineObject1() // InlineObject1 | 
 };
 apiInstance.availabilitySearchPost(opts, (error, data, response) => {
   if (error) {
@@ -49,11 +49,11 @@ apiInstance.availabilitySearchPost(opts, (error, data, response) => {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **availabilitySearchPostRequest** | [**AvailabilitySearchPostRequest**](AvailabilitySearchPostRequest.md)|  | [optional] 
+ **inlineObject1** | [**InlineObject1**](InlineObject1.md)|  | [optional] 
 
 ### Return type
 
-[**AvailabilitySearchPost200Response**](AvailabilitySearchPost200Response.md)
+[**InlineResponse2001**](InlineResponse2001.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 
 ## locationSearchPost
 
-> LocationSearchPost200Response locationSearchPost(opts)
+> InlineResponse200 locationSearchPost(opts)
 
 Search for location
 
@@ -86,7 +86,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 
 let apiInstance = new LodgeaJs.DefaultApi();
 let opts = {
-  'locationSearchPostRequest': new LodgeaJs.LocationSearchPostRequest() // LocationSearchPostRequest | 
+  'inlineObject': new LodgeaJs.InlineObject() // InlineObject | 
 };
 apiInstance.locationSearchPost(opts, (error, data, response) => {
   if (error) {
@@ -102,11 +102,11 @@ apiInstance.locationSearchPost(opts, (error, data, response) => {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **locationSearchPostRequest** | [**LocationSearchPostRequest**](LocationSearchPostRequest.md)|  | [optional] 
+ **inlineObject** | [**InlineObject**](InlineObject.md)|  | [optional] 
 
 ### Return type
 
-[**LocationSearchPost200Response**](LocationSearchPost200Response.md)
+[**InlineResponse200**](InlineResponse200.md)
 
 ### Authorization
 
@@ -120,7 +120,7 @@ Name | Type | Description  | Notes
 
 ## propertiesGet
 
-> PropertiesGet200Response propertiesGet(opts)
+> InlineResponse2002 propertiesGet(opts)
 
 List (filtered) properties
 
@@ -161,7 +161,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**PropertiesGet200Response**](PropertiesGet200Response.md)
+[**InlineResponse2002**](InlineResponse2002.md)
 
 ### Authorization
 
@@ -175,7 +175,7 @@ Name | Type | Description  | Notes
 
 ## propertiesPropertyIdAvailabilityGet
 
-> PropertiesPropertyIdAvailabilityGet200Response propertiesPropertyIdAvailabilityGet(propertyId, currencyCode)
+> InlineResponse2004 propertiesPropertyIdAvailabilityGet(propertyId, currencyCode)
 
 Get a properties availability
 
@@ -214,7 +214,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**PropertiesPropertyIdAvailabilityGet200Response**](PropertiesPropertyIdAvailabilityGet200Response.md)
+[**InlineResponse2004**](InlineResponse2004.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ Name | Type | Description  | Notes
 
 ## propertiesPropertyIdGet
 
-> PropertiesPropertyIdGet200Response propertiesPropertyIdGet(propertyId)
+> InlineResponse2003 propertiesPropertyIdGet(propertyId)
 
 Get a properties details
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**PropertiesPropertyIdGet200Response**](PropertiesPropertyIdGet200Response.md)
+[**InlineResponse2003**](InlineResponse2003.md)
 
 ### Authorization
 
